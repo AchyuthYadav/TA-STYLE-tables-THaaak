@@ -73,6 +73,12 @@ body {
 .flex-1 {
     display: flex;
 }
+.justify-content {
+    justify-content: center;
+    color: white;
+}
+
+
 
 .button-primary {
     padding: 10px 15px;
@@ -87,8 +93,15 @@ body {
     text-transform: uppercase;
 }
 
-
-
+/* overlayer */
+.overlayer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(35, 45, 56, 0.5);
+}
 
 /* custom styles */
 
@@ -127,7 +140,7 @@ body {
 .gym-vedio {
     width: 100%;
     position: relative;  
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)); 
+    object-fit: cover;
 }
 
 /* section2 */
@@ -229,6 +242,24 @@ body {
 .weeks li {
     margin-left: 50px;
 }
+.navbar1 a{
+    color: white;
+    padding: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+table {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+td {
+    border: 1px solid white;
+    text-align: center;
+    padding: 30px 40px;
+}
 
 /* section8 */
 .trainer img{
@@ -242,7 +273,32 @@ body {
 }
 
 /* section9 */
-
+.form1 input{
+    padding: 5px 0;
+    text-transform: capitalize;
+    margin: 10px 0;
+    margin-top: 50px;
+    
+}
+.form2 input{
+    padding: 5px 0;
+    text-transform: capitalize;
+    width: 365px;
+    margin: 10px 0;
+}
+.form3 input{
+    padding: 5px 0;
+    text-transform: capitalize;
+    height: 80px;
+    width: 365px;
+    margin: 10px 0;
+}
+.background2 {
+    background: url(./assets/contact-bg.jpg)no-repeat;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
 
 /* footer */
 footer {
